@@ -18,18 +18,15 @@ body {
 }
 
 .nav-items-list {
-  display: flex;
-  gap: 50px;
+  display: none;
 }
 
-@media (min: 1023px) {
+@media (min-width: 1024px) {
   .button-toggle {
     display: none;
   }
-}
-
-@media (max-width: 1024px) {
   .nav-items-list {
-    display: none;
+    display: flex;
+    gap: 20px;
   }
 }
